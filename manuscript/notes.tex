@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+\usepackage{booktabs}
+\usepackage{capt-of}
+\begin{document}
+
+\subsection*{Intro}
+We have a flickr dataset with data pictures and metadata (see Table \ref{table:metadata}).
+
+\subsection*{User}
+
+
+\begin{table}
+\centering
+	\begin{tabular}{llr}
+	\toprule
+    \cmidrule(r){1-2}
+    	metadata & type & parsed \\
+    \midrule
+    	Photo/video identifier & type & yes\\
+		User NSID & type & yes\\
+		User nickname & type & yes\\
+		Date taken & type & yes\\
+		Date uploaded & type & yes\\
+		Capture device & type & yes\\
+		Title & type & yes\\
+		Description & type & yes\\
+		User tags (comma-separated) & type & yes\\
+		Machine tags (comma-separated) & type & yes\\
+		Longitude & type & yes\\
+		Latitude & type & yes\\
+		Accuracy & type & yes\\
+		Photo/video page URL & type & yes\\
+		Photo/video download URL & type & yes\\
+		License name & type & yes\\
+		License URL & type & yes\\
+		Photo/video server identifier & type & yes\\
+		Photo/video farm identifier & type & yes\\
+		Photo/video secret & type & yes\\
+		Photo/video secret original & type & yes\\
+		Extension of the original photo & type & yes\\
+		Photos/video marker (0 = photo, 1 = video) & type & yes\\
+    \bottomrule
+	\end{tabular}
+\caption{Picture's metadata.}
+\label{table:metadata}
+\end{table}
+
+\end{document}
